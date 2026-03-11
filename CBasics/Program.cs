@@ -17,6 +17,9 @@
             SubtractNums(10, 3);
             Console.WriteLine(isStringLonger("test", 8));
 
+            int additionRes = addNumbers(1, 8);
+            Console.WriteLine("The result for the addition is: " +  additionRes);
+
         }
 
         private static void printGreeting (string name)
@@ -35,5 +38,13 @@
         {
             
             return word.Length > number;        }
+
+        private static int addNumbers(int num1, int num2) {
+
+            int result;
+            result = num1 + num2;
+            return result;
+                
+                }
     }
 }
