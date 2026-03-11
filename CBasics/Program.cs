@@ -15,6 +15,7 @@
 
             printGreeting(firstName);
             SubtractNums(10, 3);
+            Console.WriteLine(isStringLonger("test", 8));
 
         }
 
@@ -29,5 +30,10 @@
             result = num1 - num2;
                Console.WriteLine(result);
         }
+
+        private static bool isStringLonger(string word, int number)
+        {
+            
+            return word.Length > number;        }
     }
 }
