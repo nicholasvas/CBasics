@@ -20,6 +20,9 @@
             int additionRes = addNumbers(1, 8);
             Console.WriteLine("The result for the addition is: " +  additionRes);
 
+            Book b = new Book("The Hobbit", 310);
+            Console.WriteLine("This week's book is " + b.title + " and the number of pages is " + b.pages);
+
         }
 
         private static void printGreeting (string name)
