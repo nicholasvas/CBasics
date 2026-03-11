@@ -4,22 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!" + "test");
-
+            
             double pi = 3.14;
             bool learningC = true;
-
-            Console.WriteLine(learningC);
+            string firstName = "Nicholas";
 
             string favouriteFilm = "The Factory Girl";
 
-            Console.WriteLine("My favourite film is: " + favouriteFilm);
-
             favouriteFilm = "High School Musical";
 
+            printGreeting(firstName);
 
-            Console.WriteLine("My favourite film is: " + favouriteFilm);
+        }
 
+        private static void printGreeting (string name)
+        {
+            Console.WriteLine("Hello, " + name);
         }
     }
 }
