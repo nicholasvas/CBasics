@@ -14,12 +14,20 @@
             favouriteFilm = "High School Musical";
 
             printGreeting(firstName);
+            SubtractNums(10, 3);
 
         }
 
         private static void printGreeting (string name)
         {
             Console.WriteLine("Hello, " + name);
+        }
+
+        private static void SubtractNums(int num1, int num2)
+        {
+            int result;
+            result = num1 - num2;
+               Console.WriteLine(result);
         }
     }
 }
